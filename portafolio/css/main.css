@@ -1,0 +1,128 @@
+*{
+    background: #bff;
+    margin: 0px;
+    text-decoration: none;
+    
+}
+#principal{
+    border:2px solid black;
+    margin: 0 auto;
+    margin-top: 20;
+    text-align: center;
+    width: 80%;
+    font-size: 30px;
+}
+#header{
+    width: 99.%;
+    height: 99.%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    line-height: 90px;
+    border: 2px solid black;
+    
+    
+}
+
+#li{
+    
+    width: 130px;
+    height: 50px;
+    background: blue;
+    border: 1px solid black;
+    float: none;
+    margin: 2px;
+    margin-left: 36%;
+    line-height: 35px;
+    box-shadow: 0px 0px 10px blue;
+    border-radius: 6px;
+    line-height: 45px;
+    text-align: center;
+}
+#menu ul li{
+    background:black;
+    display: block;
+    float:right;
+    margin: 28px;
+    padding: 3px;
+    border-left: 15 px solid black;
+    
+}
+#contenido{
+    width: 68%;
+    float: left;
+}
+#clear{
+    float: none;
+    clear: both;
+}
+#lateral{ 
+    float: left;
+    min-height: 99%;
+    max-height: 90%;
+    text-align: center;
+    overflow:hidden;
+    width: 30%;
+    margin:5%;
+    box-shadow: 0px 0px 10px blue;
+    
+}
+#cursos{
+    width: 280px;
+    height: 220px;
+    background: blue;
+    border: 1px solid black;
+    float: left;
+    margin: 18px;
+    line-height: 20px;
+    box-shadow: 0px 0px 10px blue;
+    border-radius: 6px solid black;
+}
+#c{
+    width: 150px;
+    height: 40px;
+    background: blue;
+    border: 1px solid black;
+    float: none;
+    margin: 2px;
+    margin-left: 36%;
+    line-height: 35px;
+    box-shadow: 0px 0px 10px blue;
+    border-radius: 6px;
+    text-align: center;
+    
+}
+#contenido img{
+    width: 100%;
+   
+}
+#caja1 img{
+    animation:  latir infinite 2s linear;
+    border: 0px solid blue;
+    width: 100%;
+
+}
+@keyframes latir{
+    0%{
+        transform: scale(1,1);
+    }
+    50%{
+        transform: scale(1.2,1.2);
+    }100%
+    {
+        transform: scale(1,1);
+    }
+
+}
+#melo{
+    margin-left: 5px;
+    width: 50%;
+    float: right;
+    margin-right: 80px;
+    padding: 3px;
+}
+#melo h3{
+    text-align: justify;
+    
+}
